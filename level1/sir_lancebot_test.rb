@@ -1,4 +1,4 @@
-require_relative "../level1/sir_lancebot.rb"
+require "../level1/sir_lancebot.rb"
 require 'minitest/autorun'
 require 'stringio'
 

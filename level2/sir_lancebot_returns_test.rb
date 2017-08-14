@@ -1,4 +1,4 @@
-require_relative '../level2/sir_lancebot_returns.rb'
+require '../level2/sir_lancebot_returns.rb'
 require 'minitest/autorun'
 require 'stringio'
 
