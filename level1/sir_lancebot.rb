@@ -1,5 +1,6 @@
-#!/bin/ruby
+#!/bin/usr/env ruby
 
+# this is the main class
 class SirLancebot
   attr_reader :n, :grid
 
@@ -8,6 +9,7 @@ class SirLancebot
     @grid = grid
   end
 
+  # this method finds the prince path for sir lancebot
   def princess_path
     moves = []
     princess_xy = []

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  File: README
+  
+    &mdash; Documentation by YARD 0.9.9
+  
+</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
+
+  <link rel="stylesheet" href="css/common.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" charset="utf-8">
+  pathId = "README";
+  relpath = '';
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" src="js/jquery.js"></script>
+
+  <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
+
+
+  </head>
+  <body>
+    <div class="nav_wrap">
+      <iframe id="nav" src="class_list.html?1"></iframe>
+      <div id="resizer"></div>
+    </div>
+
+    <div id="main" tabindex="-1">
+      <div id="header">
+        <div id="menu">
+  
+    <a href="_index.html">Index</a> &raquo; 
+    <span class="title">File: README</span>
+  
+</div>
+
+        <div id="search">
+  
+    <a class="full_list_link" id="class_list_link"
+        href="class_list.html">
+
+        <svg width="24" height="24">
+          <rect x="0" y="4" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="12" width="24" height="4" rx="1" ry="1"></rect>
+          <rect x="0" y="20" width="24" height="4" rx="1" ry="1"></rect>
+        </svg>
+    </a>
+  
+</div>
+        <div class="clear"></div>
+      </div>
+
+      <div id="content"><div id='filecontents'>
+<h1 id="label-botandprincess">botandprincess</h1>
+
+<p>this is basically about a bot named lancebot saving the princess in level 1
+and level 2</p>
+
+<p>task summary :  Princess Peach is trapped in one of the four corners of a
+square grid. You are in the center of the grid and can move one step at a
+time in any of the four directions. how to save the princess?</p>
+
+<p>level 1 Explanation: in the first case its basically for 3*3 grid</p>
+<ul><li>
+<p>for first example paste this code in sirlancebot.rb file at the bottom :</p>
+</li></ul>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_sir_lancebot'>sir_lancebot</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="SirLancebot.html" title="SirLancebot (class)">SirLancebot</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="SirLancebot.html#initialize-instance_method" title="SirLancebot#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='int'>3</span><span class='comma'>,</span> <span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>---</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>-l-</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>--p</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+
+<span class='id identifier rubyid_sir_lancebot'>sir_lancebot</span><span class='period'>.</span><span class='id identifier rubyid_princess_path'>princess_path</span>
+</code></pre>
+<ul><li>
+<p>and then simply execute the file by running: <code>ruby
+sir_lancebot.rb</code></p>
+</li></ul>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_sample'>sample</span> <span class='label'>input:</span>
+<span class='int'>3</span>
+<span class='op'>-</span><span class='op'>-</span><span class='op'>-</span>
+<span class='op'>-</span><span class='id identifier rubyid_l'>l</span><span class='op'>-</span>
+<span class='op'>-</span><span class='op'>-</span><span class='id identifier rubyid_p'>p</span>
+</code></pre>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_sample'>sample</span> <span class='label'>output:</span>
+<span class='const'>DOWN</span>
+<span class='const'>RIGHT</span>
+</code></pre>
+
+<p>level 2 Explanation: in the second case its when Princess and
+Lancebot&#39;s position are randomly set. how to save princess</p>
+<ul><li>
+<p>for second example paste this code in sirlancebot.rb file at the bottom :</p>
+</li></ul>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_sir_lancebot'>sir_lancebot</span> <span class='op'>=</span> <span class='const'><span class='object_link'><a href="SirLancebot2.html" title="SirLancebot2 (class)">SirLancebot2</a></span></span><span class='period'>.</span><span class='id identifier rubyid_new'><span class='object_link'><a href="SirLancebot2.html#initialize-instance_method" title="SirLancebot2#initialize (method)">new</a></span></span><span class='lparen'>(</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>5</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>2 1</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='lbracket'>[</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>-----</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>-----</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>-l--p</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span> <span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>-----</span><span class='tstring_end'>&#39;</span></span><span class='comma'>,</span><span class='tstring'><span class='tstring_beg'>&#39;</span><span class='tstring_content'>-----</span><span class='tstring_end'>&#39;</span></span><span class='rbracket'>]</span><span class='rparen'>)</span>
+<span class='id identifier rubyid_sir_lancebot'>sir_lancebot</span><span class='period'>.</span><span class='id identifier rubyid_next_move'>next_move</span>
+</code></pre>
+<ul><li>
+<p>and then simply execute the file by running: <code>ruby
+sir_lancebot_returns.rb</code></p>
+</li></ul>
+
+<pre class="code ruby"><code class="ruby">sample input:
+5
+2 1
+-----
+-----
+-l--p
+-----
+-----</code></pre>
+
+<pre class="code ruby"><code class="ruby"><span class='id identifier rubyid_sample'>sample</span> <span class='label'>output:</span>
+<span class='const'>RIGHT</span>
+</code></pre>
+<ul><li>
+<p>Gems used:</p>
+<ul><li>
+<p>rspec: for writing testcases</p>
+</li><li>
+<p>yard: for documentation</p>
+</li><li>
+<p>rubocop: for syntax linting and static code analyzer</p>
+</li></ul>
+</li></ul>
+</div></div>
+
+      <div id="footer">
+  Generated on Fri Aug 18 23:28:20 2017 by
+  <a href="http://yardoc.org" title="Yay! A Ruby Documentation Tool" target="_parent">yard</a>
+  0.9.9 (ruby-2.3.1).
+</div>
+
+    </div>
+  </body>
+</html>
